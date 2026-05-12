@@ -27,7 +27,6 @@ Main features used:
 
 - Python
 - Pandas
-- NumPy
 - Seaborn
 - Matplotlib
 - Scikit-learn
@@ -41,16 +40,17 @@ The analysis follows these main steps:
 
 2. **Exploratory Data Analysis (EDA)**  
    Visualizing relationships between penguin features and species.  
-   The analysis also explores how penguin species are distributed across islands and how morphological features vary by location.
+   The analysis also explores how penguin species are distributed across islands
+   and how morphological features vary by location.
 
-3. **Feature Scaling**  
+4. **Feature Scaling**  
    Standardizing numerical features before clustering.
 
-4. **KMeans Clustering**  
+5. **KMeans Clustering**  
    Applying KMeans to identify natural groupings in the data.  
    The Elbow Method is used to determine the optimal number of clusters.
 
-5. **PCA Visualization**  
+6. **PCA Visualization**  
    Using Principal Component Analysis to project the data into two dimensions for cluster interpretation.
 
 ## Results
